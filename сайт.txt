@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт</title>
+    <style>
+        body, html {
+            margin: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000; /* Цвет фона вокруг картинки */
+        }
+        img {
+            width: 2000px;
+            height: 900px;
+            object-fit: fills;
+        }
+    </style>
+</head>
+<body>
+    <img src="image.jpg" alt="Картинка">
+</body>
+</html>
